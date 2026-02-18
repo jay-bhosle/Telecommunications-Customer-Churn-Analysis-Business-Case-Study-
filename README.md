@@ -6,6 +6,7 @@ Location: California
 
 This project analyzes customer churn behavior in a competitive telecommunications market and provides data-driven recommendations to improve retention and revenue stability.
 <img width="1920" height="1080" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/25a9b6e4-e71f-467e-86ae-aecb160ea4eb" />
+62
 
 📌 Executive Summary
 
@@ -17,6 +18,7 @@ This project analyzes customer churn behavior in a competitive telecommunication
 
 🔵 Targeted retention can significantly improve revenue
 <img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/55c1be63-20b2-4f18-af6a-0e9a3664b423" />
+63
 
 🏢 Business Context & Problem Statement
 Market Context
@@ -31,6 +33,7 @@ Objective
 
 Identify churn drivers and recommend retention strategies.
 <img width="1920" height="1080" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/91af8610-df8d-49c2-9b66-758669d2baab" />
+64
 
 🛠 Data Collection & Preparation
 Dataset
@@ -59,6 +62,7 @@ Engineered features (e.g., Customer Value segmentation)
 
 Prepared dataset for analysis and visualization
 <img width="1920" height="1080" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/846965ff-c988-47b3-8579-d581d2f6b18f" />
+65
 
 📊 Exploratory Data Analysis (EDA)
 1️⃣ Customer Status Distribution
@@ -72,6 +76,7 @@ Large portion: Churned
 
 Smaller segment: Newly Joined
 <img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/8fa50638-f79f-47b8-a68f-4820ca4d5cd9" />
+66
 
 2️⃣ Contract Type & Churn
 
@@ -85,6 +90,7 @@ Two Year	🟢 Low
 
 📌 Contract length is the strongest churn driver.
 <img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/4c2321e3-30a3-48e9-80cb-c96d06d26b18" />
+67
 
 3️⃣ Pricing & Churn
 
@@ -97,6 +103,7 @@ Price-sensitive customers are more likely to leave
 
 📌 Pricing pressure increases churn probability.
 <img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/43bc945f-5f30-4e3f-93f4-99fa82bb02ed" />
+68
 
 4️⃣ Customer Value Analysis
 
@@ -113,6 +120,7 @@ High Value
 
 ⚠️ Losing high-value customers creates major revenue risk.
 <img width="1920" height="1080" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/f74e58fc-4e25-494c-97df-7f6970b5d091" />
+69
 
 🔎 Key Findings & Insights
 
@@ -124,6 +132,7 @@ High Value
 
 📌 High-value customer loss drives revenue risk
 <img width="1920" height="1080" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/9e488e7b-e585-4811-a16b-699065567bd3" />
+70
 
 
 🚀 Recommendations & Expected Impact
@@ -149,6 +158,7 @@ Expected Impact
 
 📈 Business Value
 <img width="1920" height="1080" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/01411be0-8cb6-4cc3-821a-123876215349" />
+71
 
 By addressing contract structure, onboarding, and pricing strategy, the company can:
 
