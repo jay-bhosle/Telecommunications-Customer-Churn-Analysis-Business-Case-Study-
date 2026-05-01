@@ -4,7 +4,7 @@
 ## Project Overview
 Analysed churn across **7,043 customers** for a competitive California telecom company. The goal was to uncover the primary drivers of customer loss, understand which segments are most at risk, and propose actionable retention initiatives to stabilise revenue.
 
-![Uploading Screenshot (62).png…]()
+<img width="1920" height="1080" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/d81a3cd6-e028-4d8f-b1b8-cf1391b1b787" />
 
 ## Executive Summary
 - **Churn is a meaningful problem** – a significant share of the customer base has left.  
