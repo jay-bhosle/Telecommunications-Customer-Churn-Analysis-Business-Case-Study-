@@ -1,108 +1,69 @@
-📊 Telecommunications Customer Churn Analysis
+# Telecom Customer Churn – Analysis & Retention Strategy  
+**Identifying churn drivers and protecting revenue for a California telecom provider**
 
-Business Case Study
-Dataset Size: 7,043 Customers
-Location: California
-This project analyzes customer churn behavior in a competitive telecommunications market and provides data-driven recommendations to improve retention and revenue stability.
-<img width="1920" height="1080" alt="Screenshot (62)" src="https://github.com/user-attachments/assets/25a9b6e4-e71f-467e-86ae-aecb160ea4eb" />
-1
+## Project Overview
+Analysed churn across **7,043 customers** for a competitive California telecom company. The goal was to uncover the primary drivers of customer loss, understand which segments are most at risk, and propose actionable retention initiatives to stabilise revenue.
 
-📌 Executive Summary
-🔴 Churn represents a meaningful share of customers
-🟢 Contract type and pricing are primary churn drivers
-🟣 High-value customers are disproportionately churning
-🔵 Targeted retention can significantly improve revenue
-<img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/55c1be63-20b2-4f18-af6a-0e9a3664b423" />
-2
+![Uploading Screenshot (62).png…]()
 
-🏢 Business Context & Problem Statement
-Market Context
-The company operates in a highly competitive telecom market.
-Problem
-Customer churn threatens revenue stability.
-Objective
-Identify churn drivers and recommend retention strategies.
-<img width="1920" height="1080" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/91af8610-df8d-49c2-9b66-758669d2baab" />
-3
+## Executive Summary
+- **Churn is a meaningful problem** – a significant share of the customer base has left.  
+- **Contract type and pricing** are the dominant churn drivers.  
+- **High‑value customers are churning disproportionately**, amplifying revenue impact.  
+- **Targeted retention actions** can significantly improve revenue stability.
 
-🛠 Data Collection & Preparation
-Dataset
-Customer churn dataset including:
-Demographics
-Services subscribed
-Contract details
-Pricing information
-Scope
-7,043 customers
-California region
-Preparation Steps
-Cleaned missing values
-Engineered features (e.g., Customer Value segmentation)
-Prepared dataset for analysis and visualization
-<img width="1920" height="1080" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/846965ff-c988-47b3-8579-d581d2f6b18f" />
-4
+<img width="1920" height="1080" alt="Screenshot (63)" src="https://github.com/user-attachments/assets/88b76bee-ce30-4ec4-a637-b6d8ee9391a4" />
 
-📊 Exploratory Data Analysis (EDA)
-1️⃣ Customer Status Distribution
-Insight:
-Churn accounts for a significant portion of the customer base.
-Majority: Stayed
-Large portion: Churned
-Smaller segment: Newly Joined
-<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/8fa50638-f79f-47b8-a68f-4820ca4d5cd9" />
-5
+## Business Problem & Objective
+The company operates in a highly competitive market. Churn directly threatens revenue stability.  
+**Objective:** Identify root causes of churn and design data‑backed retention strategies.
 
-2️⃣ Contract Type & Churn
-Key Finding:
-Month-to-month contracts show the highest churn rates.
-Contract Type	Churn Risk
-Month-to-Month	🔴 High
-One Year	🟡 Medium
-Two Year	🟢 Low
-📌 Contract length is the strongest churn driver.
-<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/4c2321e3-30a3-48e9-80cb-c96d06d26b18" />
-6
+<img width="1920" height="1080" alt="Screenshot (64)" src="https://github.com/user-attachments/assets/5c0b29aa-3565-4350-8809-ee76bc7fe487" />
 
-3️⃣ Pricing & Churn
-Insight:
-Churned customers tend to pay higher monthly charges.
-Higher pricing correlates with increased churn risk
-Price-sensitive customers are more likely to leave
-📌 Pricing pressure increases churn probability.
-<img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/43bc945f-5f30-4e3f-93f4-99fa82bb02ed" />
-7
+## Data & Preparation
+- Dataset: 7,043 telecom customers in California  
+- Included demographics, services subscribed, contract details, and churn status  
+- Engineered a **Customer Value** feature to segment high‑value users  
+- Handled missing values and prepared data for visual analysis  
 
-4️⃣ Customer Value Analysis
-Key Finding:
-High-value customers are disproportionately represented among churned users.
-Customer segments:
-Low Value
-Medium Value
-High Value
-⚠️ Losing high-value customers creates major revenue risk.
-<img width="1920" height="1080" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/f74e58fc-4e25-494c-97df-7f6970b5d091" />
-8
+<img width="1920" height="1080" alt="Screenshot (65)" src="https://github.com/user-attachments/assets/f4169c2e-2402-4f29-a890-7c0bb16c97da" />
 
-🔎 Key Findings & Insights
-📌 Contract length is the strongest churn driver, 📌 Early-tenure customers are most vulnerable, 📌 Pricing pressure increases churn risk, 📌 High-value customer loss drives revenue risk
-<img width="1920" height="1080" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/9e488e7b-e585-4811-a16b-699065567bd3" />
-9
+## Key Insights (EDA)
 
-🚀 Recommendations & Expected Impact
-Recommendations
-Incentivize long-term contracts, Improve early customer onboarding experience, Offer targeted pricing and bundled plans, Proactively protect high-value customers, Expected Impact
-📉 Lower churn rate, 📈 Higher customer lifetime value, 💰 Improved revenue stability, 🎯 Better retention of high-value customers, 📈 Business Value
-<img width="1920" height="1080" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/01411be0-8cb6-4cc3-821a-123876215349" />
-10
+### 1. Churn Magnitude
+Churned customers represent a **significant portion of the base**, not just a marginal segment.  
+<img width="1920" height="1080" alt="Screenshot (66)" src="https://github.com/user-attachments/assets/be67806a-5e07-4a49-b0a8-81c218a79090" />
 
-By addressing contract structure, onboarding, and pricing strategy, the company can:
-Reduce churn significantly, Stabilize recurring revenue, Protect its most valuable customer segments, Improve long-term profitability
+### 2. Contract Type Drives Churn
+- **Month‑to‑month contracts** have a churn rate of **~10%**  
+- **Two‑year contracts** show only **~5%** churn  
+→ Contract length is the strongest single predictor of churn.
 
-🧠 Tools & Techniques
-Python (Pandas, NumPy), Data Visualization (Matplotlib / Seaborn), Exploratory Data Analysis (EDA)
-Feature Engineering
-Business Insight Translation
+<img width="1920" height="1080" alt="Screenshot (67)" src="https://github.com/user-attachments/assets/cc6b91cb-47a6-4b6a-bb03-afe0de01a302" />
 
-📌 Conclusion
-Customer churn in telecommunications is strongly influenced by:
-Contract structure, Pricing pressure, Customer tenure, Customer value segmentation, A targeted retention strategy focused on contract optimization and high-value customer protection can significantly improve revenue outcomes.
+### 3. Pricing Pressure
+Churned customers consistently pay **higher monthly charges** than those who stay, indicating price sensitivity as a key trigger.  
+<img width="1920" height="1080" alt="Screenshot (68)" src="https://github.com/user-attachments/assets/020c795c-9dca-4ef2-b608-34ea59de8a95" />
+
+### 4. High‑Value Customers at Risk
+High‑value customers (top spenders or multi‑service users) are **over‑represented in the churned group**. This makes churn disproportionately damaging to revenue.  
+<img width="1920" height="1080" alt="Screenshot (69)" src="https://github.com/user-attachments/assets/7b2b70fb-ab98-4d32-81a2-3d56d1b9d963" />
+
+### 5. Summary of Findings
+- Contract length is the strongest churn driver  
+- Early‑tenure customers are most vulnerable  
+- Pricing pressure increases churn risk  
+- High‑value customer loss directly threatens revenue
+
+<img width="1920" height="1080" alt="Screenshot (70)" src="https://github.com/user-attachments/assets/a66ca69c-71b2-4d08-9483-f03f562ffaf6" />
+
+## Recommendations & Expected Impact
+Based on the analysis, the following actions are recommended:
+1. **Incentivise long‑term contracts** – offer discounts or perks for annual/two‑year commitments.  
+2. **Improve early customer onboarding** – targeted engagement in the first 90 days to reduce early churn.  
+3. **Provide targeted pricing & bundles** – personalised offers for price‑sensitive segments.  
+4. **Protect high‑value customers** – dedicated retention programmes, loyalty rewards, and proactive outreach.
+
+**Expected Impact:** Lower churn rate, higher customer lifetime value, and improved revenue stability.
+
+<img width="1920" height="1080" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/63e4074a-41dc-4e22-a2fe-a9755062c232" />
